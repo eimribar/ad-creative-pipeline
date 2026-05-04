@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.local
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Brand assets — drop your own into the segment dirs locally; never commit
+*/reference-images/logo/
+*/reference-images/screenshots/
+*/reference-images/invitations/
+
+# Generated outputs
+*/output/
+output/
+
+# Briefs and per-run artifacts
+brief.json
+_grid.png
+_grid_previews/
+
+# IDE
+.idea/
+.vscode/

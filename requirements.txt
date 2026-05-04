@@ -1,0 +1,6 @@
+openai>=2.30.0
+Pillow>=11.0.0
+python-dotenv>=1.0.0
+
+# Only needed if you run the original Gemini scripts (run_batch.py, generate_ad.py)
+google-genai>=1.0.0
